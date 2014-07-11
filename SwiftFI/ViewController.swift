@@ -24,12 +24,12 @@ class ViewController: UIViewController {
 		
 		// Zoom to LNK by default...
 		lnk = CLLocationCoordinate2DMake(40.85, -96.61)
-		viewDistance = 5 * METERS_PER_MILE;
-		viewRegion = MKCoordinateRegionMakeWithDistance(lnk, viewDistance, viewDistance);
+		viewDistance = 5 * METERS_PER_MILE
+		viewRegion = MKCoordinateRegionMakeWithDistance(lnk, viewDistance, viewDistance)
 		mapView.setRegion(viewRegion, animated: true)
 		
 		// ...but go ahead and go to where the user is if they want
-		mapView.showsUserLocation = true;
+		mapView.showsUserLocation = true
 		
 		// Display the map view and populate it
 		self.view.addSubview(mapView)
