@@ -1,0 +1,1 @@
+../../FoodInspections/Pod/Classes/FICoordinate.h

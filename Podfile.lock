@@ -1,0 +1,14 @@
+PODS:
+  - FoodInspections (1.0.4)
+
+DEPENDENCIES:
+  - FoodInspections (from `https://github.com/rnelson/libfi-objc.git`)
+
+EXTERNAL SOURCES:
+  FoodInspections:
+    :git: https://github.com/rnelson/libfi-objc.git
+
+SPEC CHECKSUMS:
+  FoodInspections: c5c4f155d315700594eb7eeb88692c18712e260a
+
+COCOAPODS: 0.33.1
