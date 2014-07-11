@@ -10,13 +10,7 @@ import Foundation
 import CoreLocation
 
 class MapAnnotation: NSObject {
-	var title: NSString
-	var subtitle: NSString
-	var coordinate: CLLocationCoordinate2D
-	
-	init(title: NSString, subtitle: NSString, coordinate: CLLocationCoordinate2D) {
-		self.title = title
-		self.subtitle = subtitle
-		self.coordinate = coordinate
-	}
+	var title: NSString?
+	var subtitle: NSString?
+	var coordinate: CLLocationCoordinate2D?
 }

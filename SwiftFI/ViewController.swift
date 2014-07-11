@@ -62,7 +62,11 @@ class ViewController: UIViewController {
 			violations = "Critical: " + String(firm.totalCritical) + ", Noncritical: " + String(firm.totalNoncritical)
 			coordinate = CLLocationCoordinate2D(latitude: firm.coordinate.latitude, longitude: firm.coordinate.longitude)
 			
-			annotation = MapAnnotation(title: firm.name, subtitle: violations, coordinate: coordinate)
+			annotation = MapAnnotation()
+			annotation.title = firm.name
+			annotation.subtitle = violations
+			annotation.coordinate = coordinate
+			
 			annotations.addObject(annotation)
 		}
 		
